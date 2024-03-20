@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.javarush.jira.login.internal.web.AdminUserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.14 s - in com.javarush.jira.login.internal.web.AdminUserControllerTest

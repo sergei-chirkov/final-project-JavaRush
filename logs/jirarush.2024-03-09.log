@@ -1,0 +1,325 @@
+03-09 00:00:34.589 [0-exec-8] DEBUG| c.javarush.jira.bugtracking.attachment.AttachmentController.download:53 download file id = 2
+03-09 00:00:34.597 [0-exec-8] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException:401 Using @ExceptionHandler com.javarush.jira.common.internal.web.RestExceptionHandler#exception(Exception, HttpServletRequest)
+03-09 00:00:34.598 [0-exec-8] ERROR| com.javarush.jira.common.internal.web.BasicExceptionHandler.processException:75 ERR# Exception com.javarush.jira.common.error.IllegalRequestDataException: Failed to download file 2_Снимок экрана 2.png at request /api/attachments/download/2
+03-09 00:00:34.599 [0-exec-8] DEBUG| o.s.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException:145 Resolved [com.javarush.jira.common.error.IllegalRequestDataException: Failed to download file 2_Снимок экрана 2.png]
+03-09 00:00:47.663 [0-exec-9] DEBUG| c.javarush.jira.bugtracking.attachment.AttachmentController.download:53 download file id = 3
+03-09 00:00:47.670 [0-exec-9] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException:401 Using @ExceptionHandler com.javarush.jira.common.internal.web.RestExceptionHandler#exception(Exception, HttpServletRequest)
+03-09 00:00:47.670 [0-exec-9] ERROR| com.javarush.jira.common.internal.web.BasicExceptionHandler.processException:75 ERR# Exception com.javarush.jira.common.error.IllegalRequestDataException: Failed to download file 3_Ежедневный-чеклист.xlsx at request /api/attachments/download/3
+03-09 00:00:47.671 [0-exec-9] DEBUG| o.s.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException:145 Resolved [com.javarush.jira.common.error.IllegalRequestDataException: Failed to download file 3_Ежедневный-чеклист.xlsx]
+03-09 00:00:53.651 [0-exec-4] INFO | com.javarush.jira.bugtracking.project.ProjectUIController.edit:40 edit 2
+03-09 00:00:53.652 [0-exec-4] INFO | com.javarush.jira.common.BaseHandler.getTo:54 get by id=2
+03-09 00:00:53.664 [0-exec-4] DEBUG| com.javarush.jira.ref.ReferenceService.getRefs:30 get by type PROJECT
+03-09 00:00:53.814 [0-exec-5] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:01:32.848 [0-exec-4] INFO | com.javarush.jira.common.BaseHandler.updateFromTo:114 updateFromTo ProjectTo:2[Test_Project],true with id=2
+03-09 00:01:32.974 [0-exec-2] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:01:54.328 [0-exec-9] INFO | com.javarush.jira.bugtracking.project.ProjectUIController.edit:40 edit 2
+03-09 00:01:54.329 [0-exec-9] INFO | com.javarush.jira.common.BaseHandler.getTo:54 get by id=2
+03-09 00:01:54.336 [0-exec-9] DEBUG| com.javarush.jira.ref.ReferenceService.getRefs:30 get by type PROJECT
+03-09 00:01:54.481 [0-exec-6] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:01:54.654 [0-exec-6] WARN | org.springframework.web.servlet.DispatcherServlet.noHandlerFound:1291 No mapping for GET /favicon.ico
+03-09 00:01:54.655 [0-exec-6] WARN | o.s.web.servlet.mvc.support.DefaultHandlerExceptionResolver.handleNoHandlerFoundException:427 No endpoint GET /favicon.ico.
+03-09 00:01:54.660 [0-exec-6] WARN | o.s.web.servlet.handler.AbstractHandlerExceptionResolver.logException:207 Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+03-09 00:01:54.662 [0-exec-6] ERROR| com.javarush.jira.common.internal.web.BasicExceptionHandler.processException:75 ERR# Exception org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico. at request /favicon.ico
+03-09 00:03:57.210 [0-exec-8] DEBUG| c.javarush.jira.bugtracking.attachment.AttachmentController.delete:45 delete file id = 1
+03-09 00:03:57.250 [0-exec-8] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException:401 Using @ExceptionHandler com.javarush.jira.common.internal.web.RestExceptionHandler#exception(Exception, HttpServletRequest)
+03-09 00:03:57.251 [0-exec-8] ERROR| com.javarush.jira.common.internal.web.BasicExceptionHandler.processException:75 ERR# Exception com.javarush.jira.common.error.IllegalRequestDataException: File./attachments/project/1_Снимок экрана 1.png deletion failed. at request /api/attachments/1
+03-09 00:03:57.256 [0-exec-8] DEBUG| o.s.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException:145 Resolved [com.javarush.jira.common.error.IllegalRequestDataException: File./attachments/project/1_Снимок экрана 1.png deletion failed.]
+03-09 00:04:19.951 [-exec-10] ERROR| org.apache.juli.logging.DirectJDKLog.log:175 Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded] with root cause
+org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field file exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:105)
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:96)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:292)
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2884)
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:3206)
+	at org.apache.catalina.connector.Request.getParameter(Request.java:1109)
+	at org.apache.catalina.connector.RequestFacade.getParameter(RequestFacade.java:381)
+	at jakarta.servlet.ServletRequestWrapper.getParameter(ServletRequestWrapper.java:160)
+	at org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest.getParameter(StrictHttpFirewall.java:769)
+	at jakarta.servlet.ServletRequestWrapper.getParameter(ServletRequestWrapper.java:160)
+	at org.springframework.security.web.savedrequest.HttpSessionRequestCache.getMatchingRequest(HttpSessionRequestCache.java:104)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:61)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:170)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:351)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+03-09 00:04:19.953 [-exec-10] ERROR| com.javarush.jira.common.internal.web.BasicExceptionHandler.processException:79 ERR# Exception org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field file exceeds its maximum permitted size of 1048576 bytes. at request /api/attachments
+org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field file exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:105)
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:96)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:292)
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2884)
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:3206)
+	at org.apache.catalina.connector.Request.getParameter(Request.java:1109)
+	at org.apache.catalina.connector.RequestFacade.getParameter(RequestFacade.java:381)
+	at jakarta.servlet.ServletRequestWrapper.getParameter(ServletRequestWrapper.java:160)
+	at org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest.getParameter(StrictHttpFirewall.java:769)
+	at jakarta.servlet.ServletRequestWrapper.getParameter(ServletRequestWrapper.java:160)
+	at org.springframework.security.web.savedrequest.HttpSessionRequestCache.getMatchingRequest(HttpSessionRequestCache.java:104)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:61)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:170)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:351)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+03-09 00:04:24.939 [0-exec-1] INFO | com.javarush.jira.common.BaseHandler.updateFromTo:114 updateFromTo ProjectTo:2[Test_Project],true with id=2
+03-09 00:04:25.067 [0-exec-3] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:06:01.916 [0-exec-9] INFO | com.javarush.jira.bugtracking.project.ProjectUIController.edit:40 edit 2
+03-09 00:06:01.916 [0-exec-9] INFO | com.javarush.jira.common.BaseHandler.getTo:54 get by id=2
+03-09 00:06:01.924 [0-exec-9] DEBUG| com.javarush.jira.ref.ReferenceService.getRefs:30 get by type PROJECT
+03-09 00:06:02.034 [0-exec-7] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:06:16.559 [0-exec-8] DEBUG| c.javarush.jira.bugtracking.attachment.AttachmentController.upload:32 upload file dump-hibernate-final.sql to folder project
+03-09 00:06:16.613 [0-exec-7] INFO | c.javarush.jira.bugtracking.attachment.AttachmentController.getAllForObject:63 get all attachment by objectId = 2
+03-09 00:06:21.063 [0-exec-3] DEBUG| c.javarush.jira.bugtracking.attachment.AttachmentController.download:53 download file id = 1000
+03-09 00:07:05.001 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.002 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.002 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.002 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.003 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.003 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.003 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.003 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.004 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.004 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.004 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.004 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.005 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.005 [0-exec-4] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:07:05.099 [0-exec-3] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:07:05.374 [0-exec-4] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getProjects:48 get projects tree
+03-09 00:07:16.910 [0-exec-6] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getSprintsAndBacklog:54 get project 1 sprints
+03-09 00:07:29.242 [0-exec-2] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getSprintsAndBacklog:54 get project 4 sprints
+03-09 00:09:07.413 [0-exec-4] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getSprintTasks:62 get sprint 5 tasks
+03-09 00:09:43.754 [0-exec-6] INFO | com.javarush.jira.bugtracking.sprint.SprintUIController.get:34 get 5
+03-09 00:09:45.898 [0-exec-2] INFO | c.javarush.jira.bugtracking.dashboard.DashboardUIController.showDashboard:25 show dashboard
+03-09 00:09:45.898 [0-exec-2] INFO | com.javarush.jira.common.BaseHandler.getAllTos:77 get all TOs
+03-09 00:09:45.908 [0-exec-2] DEBUG| com.javarush.jira.ref.ReferenceService.getRefs:30 get by type TASK_STATUS
+03-09 00:09:46.005 [0-exec-4] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:09:46.229 [0-exec-9] INFO | com.javarush.jira.bugtracking.sprint.SprintController.getAllByProjectAndStatus:56 get all active sprints for project with id=4
+03-09 00:09:46.254 [0-exec-3] INFO | com.javarush.jira.bugtracking.task.TaskController.getAllBySprint:52 get all for sprint 5
+03-09 00:09:46.267 [0-exec-8] INFO | com.javarush.jira.bugtracking.task.TaskController.getTaskAssignmentsBySprint:112 get task assignments for user 2 for sprint 5
+03-09 00:10:19.545 [0-exec-2] INFO | c.javarush.jira.bugtracking.dashboard.DashboardUIController.showDashboard:25 show dashboard
+03-09 00:10:19.545 [0-exec-2] INFO | com.javarush.jira.common.BaseHandler.getAllTos:77 get all TOs
+03-09 00:10:19.554 [0-exec-2] DEBUG| com.javarush.jira.ref.ReferenceService.getRefs:30 get by type TASK_STATUS
+03-09 00:10:19.642 [0-exec-9] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:10:19.826 [0-exec-6] INFO | com.javarush.jira.bugtracking.sprint.SprintController.getAllByProjectAndStatus:56 get all active sprints for project with id=1
+03-09 00:10:19.867 [0-exec-2] INFO | com.javarush.jira.bugtracking.task.TaskController.getAllBySprint:52 get all for sprint 1
+03-09 00:10:19.893 [0-exec-9] INFO | com.javarush.jira.bugtracking.task.TaskController.getTaskAssignmentsBySprint:112 get task assignments for user 2 for sprint 1
+03-09 00:10:22.262 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.262 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.263 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.263 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.263 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.263 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.263 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.263 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.264 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.264 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.264 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.264 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.264 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.264 [-exec-10] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:10:22.357 [0-exec-7] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:10:22.527 [0-exec-4] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getProjects:48 get projects tree
+03-09 00:10:23.829 [0-exec-5] INFO | c.javarush.jira.bugtracking.dashboard.DashboardUIController.showDashboard:25 show dashboard
+03-09 00:10:23.829 [0-exec-5] INFO | com.javarush.jira.common.BaseHandler.getAllTos:77 get all TOs
+03-09 00:10:23.837 [0-exec-5] DEBUG| com.javarush.jira.ref.ReferenceService.getRefs:30 get by type TASK_STATUS
+03-09 00:10:23.907 [0-exec-1] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:10:24.042 [0-exec-3] INFO | com.javarush.jira.bugtracking.sprint.SprintController.getAllByProjectAndStatus:56 get all active sprints for project with id=1
+03-09 00:10:24.114 [0-exec-5] INFO | com.javarush.jira.bugtracking.task.TaskController.getAllBySprint:52 get all for sprint 1
+03-09 00:10:24.142 [-exec-10] INFO | com.javarush.jira.bugtracking.task.TaskController.getTaskAssignmentsBySprint:112 get task assignments for user 2 for sprint 1
+03-09 00:11:02.884 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.884 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.884 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.885 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.885 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.885 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.885 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.885 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.885 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.886 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.886 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.886 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.886 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.886 [0-exec-8] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:02.973 [0-exec-3] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:11:03.139 [0-exec-5] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getProjects:48 get projects tree
+03-09 00:11:05.980 [0-exec-4] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getSprintsAndBacklog:54 get project 1 sprints
+03-09 00:11:07.347 [0-exec-9] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getSprintsAndBacklog:54 get project 4 sprints
+03-09 00:11:08.556 [0-exec-1] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getSprintTasks:62 get sprint 5 tasks
+03-09 00:11:09.609 [0-exec-2] INFO | com.javarush.jira.bugtracking.task.TaskUIController.get:39 get 87
+03-09 00:11:15.213 [-exec-10] INFO | com.javarush.jira.bugtracking.task.TaskUIController.get:39 get 87
+03-09 00:11:22.428 [0-exec-8] INFO | com.javarush.jira.bugtracking.sprint.SprintUIController.get:34 get 5
+03-09 00:11:22.529 [0-exec-7] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:11:26.910 [-exec-10] INFO | c.javarush.jira.bugtracking.dashboard.DashboardUIController.showDashboard:25 show dashboard
+03-09 00:11:26.910 [-exec-10] INFO | com.javarush.jira.common.BaseHandler.getAllTos:77 get all TOs
+03-09 00:11:26.918 [-exec-10] DEBUG| com.javarush.jira.ref.ReferenceService.getRefs:30 get by type TASK_STATUS
+03-09 00:11:27.017 [0-exec-3] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:11:27.199 [0-exec-5] INFO | com.javarush.jira.bugtracking.sprint.SprintController.getAllByProjectAndStatus:56 get all active sprints for project with id=4
+03-09 00:11:27.236 [0-exec-6] INFO | com.javarush.jira.bugtracking.task.TaskController.getAllBySprint:52 get all for sprint 5
+03-09 00:11:27.263 [0-exec-8] INFO | com.javarush.jira.bugtracking.task.TaskController.getTaskAssignmentsBySprint:112 get task assignments for user 2 for sprint 5
+03-09 00:11:41.125 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.125 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.126 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.126 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.126 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.127 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.127 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.127 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.128 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.128 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.128 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.129 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.129 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.129 [0-exec-1] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:11:41.207 [0-exec-2] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:11:41.368 [0-exec-2] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getProjects:48 get projects tree
+03-09 00:11:43.809 [0-exec-3] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getSprintsAndBacklog:54 get project 2 sprints
+03-09 00:11:45.070 [0-exec-7] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getSprintTasks:62 get sprint 2 tasks
+03-09 00:11:45.610 [0-exec-6] INFO | com.javarush.jira.bugtracking.sprint.SprintUIController.get:34 get 2
+03-09 00:11:46.423 [0-exec-5] INFO | com.javarush.jira.bugtracking.task.TaskUIController.get:39 get 57
+03-09 00:11:59.405 [0-exec-8] INFO | com.javarush.jira.bugtracking.task.TaskUIController.get:39 get 13
+03-09 00:12:02.672 [0-exec-9] INFO | com.javarush.jira.bugtracking.task.TaskUIController.showEditForm:49 show edit form for task 13
+03-09 00:12:02.690 [0-exec-9] DEBUG| com.javarush.jira.ref.ReferenceService.getRefs:30 get by type TASK
+03-09 00:12:02.691 [0-exec-9] DEBUG| com.javarush.jira.ref.ReferenceService.getRefs:30 get by type TASK_STATUS
+03-09 00:12:02.692 [0-exec-9] DEBUG| com.javarush.jira.ref.ReferenceService.getRefs:30 get by type PRIORITY
+03-09 00:12:02.798 [0-exec-6] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:12:02.873 [-exec-10] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/js/activity.js
+03-09 00:12:02.972 [0-exec-9] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/js/activity.js
+03-09 00:12:02.997 [0-exec-1] WARN | org.springframework.web.servlet.DispatcherServlet.noHandlerFound:1291 No mapping for GET /favicon.ico
+03-09 00:12:02.997 [0-exec-1] WARN | o.s.web.servlet.mvc.support.DefaultHandlerExceptionResolver.handleNoHandlerFoundException:427 No endpoint GET /favicon.ico.
+03-09 00:12:02.998 [0-exec-1] WARN | o.s.web.servlet.handler.AbstractHandlerExceptionResolver.logException:207 Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
+03-09 00:12:03.001 [0-exec-1] ERROR| com.javarush.jira.common.internal.web.BasicExceptionHandler.processException:75 ERR# Exception org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico. at request /favicon.ico
+03-09 00:12:12.917 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:12.917 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:12.917 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:12.918 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:12.918 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:12.918 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:12.918 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:12.919 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:12.919 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:12.919 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:12.920 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:12.920 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:12.920 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:12.920 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@3168c1f8
+03-09 00:12:13.008 [0-exec-9] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:12:13.331 [0-exec-8] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getProjects:48 get projects tree
+03-09 00:12:14.999 [0-exec-3] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getSprintsAndBacklog:54 get project 3 sprints
+03-09 00:12:15.979 [0-exec-5] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getBacklogTasks:68 get project 3 backlog tasks
+03-09 00:12:18.102 [0-exec-7] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getSprintsAndBacklog:54 get project 2 sprints
+03-09 00:12:19.588 [0-exec-2] INFO | com.javarush.jira.bugtracking.sprint.SprintUIController.get:34 get 4
+03-09 00:12:21.668 [0-exec-1] INFO | com.javarush.jira.bugtracking.tree.TreeRestController.getSprintTasks:62 get sprint 4 tasks
+03-09 00:12:26.342 [0-exec-4] INFO | c.javarush.jira.bugtracking.dashboard.DashboardUIController.showDashboard:25 show dashboard
+03-09 00:12:26.342 [0-exec-4] INFO | com.javarush.jira.common.BaseHandler.getAllTos:77 get all TOs
+03-09 00:12:26.352 [0-exec-4] DEBUG| com.javarush.jira.ref.ReferenceService.getRefs:30 get by type TASK_STATUS
+03-09 00:12:26.437 [0-exec-7] ERROR| com.javarush.jira.common.internal.web.UIExceptionHandler.processError:56 ERR# Exception No message available at request /static/bootstrap/css/bootstrap-select.min.css
+03-09 00:12:26.604 [-exec-10] INFO | com.javarush.jira.bugtracking.sprint.SprintController.getAllByProjectAndStatus:56 get all active sprints for project with id=2
+03-09 00:12:26.672 [0-exec-6] INFO | com.javarush.jira.bugtracking.task.TaskController.getAllBySprint:52 get all for sprint 4
+03-09 00:12:26.689 [0-exec-7] INFO | com.javarush.jira.bugtracking.task.TaskController.getTaskAssignmentsBySprint:112 get task assignments for user 2 for sprint 4
+03-09 01:46:55.747 [downHook] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'
