@@ -41,7 +41,7 @@
 
    Сколько задача находилась в работе (ready_for_review минус in_progress ).
    Сколько задача находилась на тестировании (done минус ready_for_review).
-    + # добавлен в TaskController метод _getTimeInWorkAndTesting_
-    + # добавлен в TaskControllerTest метод для тестирования  
+    + #### добавлен в TaskController метод _getTimeInWorkAndTesting_
+    + #### добавлен в TaskControllerTest метод для тестирования
 9. Написать Dockerfile для основного сервера
 10. Написать docker-compose файл для запуска контейнера сервера вместе с БД и nginx. 
